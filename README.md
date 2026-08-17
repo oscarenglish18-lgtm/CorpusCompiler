@@ -68,7 +68,7 @@ data/
     rome.txt
     ...
 ```
-
+note: The current .txt files in the data folder in this repository are placeholders. 
 ### Recognised dataset names
 
 | Code | Site | Accepted filenames |
@@ -306,10 +306,6 @@ Known constraints:
 ## Licence and citation
 
 Licensed under the [MIT License](LICENSE).
-
-If you use the Compiler in published work, please cite it. See
-`CITATION.cff` for the machine-readable record.
-
 EDCS itself should be cited separately. The database is edited by
 Manfred Clauss, Anne Kolb, Wolfgang Slaby and Barbara Woitas, and is
 continuously revised — record the date of your export.
