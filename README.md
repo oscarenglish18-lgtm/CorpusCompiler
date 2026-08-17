@@ -87,10 +87,12 @@ data/
 | `UM` | Uchi Maius | `uchi_maius`, `uchimaius`, `uchi-maius` |
 
 The Compiler recognises sites by matching filenames against a list of
-aliases. Adding one means editing two dictionaries near the top of the
+aliases. 
+
+If you want to add a whole new site, and thus a new alias you must edit two dictionaries near the top of the
 script. 
 
-If you want to add a whole new site, you will need to complete the following.
+
 
 **1. Add the code and its aliases** to `_DATASET_CODE_ALIASES`
 (around line 42):
