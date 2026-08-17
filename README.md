@@ -130,7 +130,7 @@ short and uppercase. They must be unique, and must not contain `-`
 which is reserved.
 Matching ignores case, spaces, hyphens and underscores. Two files
 resolving to the same code will raise an error rather than silently
-combining. If you want to add other sites, you will first need to 
+combining. 
 
 ## Running the Compiler
 
