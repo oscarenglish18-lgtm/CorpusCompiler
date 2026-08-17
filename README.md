@@ -45,9 +45,8 @@ Nothing else. The Compiler uses only the standard library.
 
 ## Getting the data
 
-**Source data is not distributed with this tool.** EDCS asserts
-copyright over its editorial content, so you will need to obtain the
-exports yourself. This takes a few minutes.
+**Source data is not distributed with this tool.** this is for copyright reasons, so you will need to obtain the raw data
+yourself from EDCS. This takes a few minutes.
 
 1. Go to the EDCS search interface at <https://edcs.hist.uzh.ch/>
    (the database moved to the University of Zurich; older links to
