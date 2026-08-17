@@ -4,11 +4,11 @@
 inscriptions from Epigraphik-Datenbank Clauss-Slaby (EDCS) exports.
 
 The Compiler takes plain-text EDCS exports, normalises them into a form
-suitable for corpus-linguistic software such as AntConc, and selects a
+suitable for corpus-linguistic software , and selects a
 fixed-size sample deterministically. Every corpus it produces is
 identified by a short self-describing key, so that anyone holding the
-same source exports can regenerate an identical corpus — the same
-inscriptions, in the same order, byte for byte.
+same source exports can regenerate an identical corpus the same
+inscriptions, in the same order. Inscriptions are compiled into each corpus as they appear in stone. 
 
 Written in standard-library Python. No third-party dependencies.
 
