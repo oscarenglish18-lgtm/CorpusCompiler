@@ -8,7 +8,7 @@ suitable for corpus-linguistic software , and selects a
 fixed-size sample deterministically. Every corpus it produces is
 identified by a short self-describing key, so that anyone holding the
 same source exports can regenerate an identical corpus the same
-inscriptions, in the same order. Inscriptions are compiled into each corpus as they appear in stone. 
+inscriptions, in the same order. 
 
 Written in standard-library Python. No third-party dependencies.
 
@@ -33,16 +33,7 @@ Written in standard-library Python. No third-party dependencies.
 
 ## Why this exists
 
-Corpus-linguistic analysis of epigraphic material requires a dataset of
-machine-readable text. Assembling one from a database export is
-laborious, and the result is usually undocumented: a reader is asked to
-take on trust both which inscriptions were included and how the text was
-normalised before counting.
-
-The Compiler addresses both problems. Normalisation is applied by a
-single documented pipeline, and sampling is deterministic rather than
-pseudo-random, so a corpus can be described completely by a short key
-rather than distributed as a file.
+This tool was necessary for my dissertation, in which I need to generate several large corpora of ancient Roman funerary inscription, as it was for linguistic analysis each inscription had to be stripped of all author expansions and presented as they appeared in the stone they were carved. 
 
 ## Requirements
 
