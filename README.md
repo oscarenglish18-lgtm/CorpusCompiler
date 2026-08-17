@@ -25,9 +25,8 @@ Written in standard-library Python. No third-party dependencies.
 - [Filters](#filters)
 - [Output formats](#output-formats)
 - [Snapshots](#snapshots)
-- [Reproducing a published corpus](#reproducing-a-published-corpus)
 - [Limitations](#limitations)
-- [Licence and citation](#licence-and-citation)
+- [Licence](#licence-and-citation)
 
 ---
 
