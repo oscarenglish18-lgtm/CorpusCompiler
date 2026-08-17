@@ -277,16 +277,6 @@ and are never read back to short-circuit generation: a corpus is always
 regenerated from source. The manifest is the useful part — it is what
 allows a reader to confirm their EDCS export matches the one used.
 
-## Reproducing a published corpus
-
-1. Obtain the EDCS exports and name them as above.
-2. Compare their SHA-256 hashes against the manifest published with the
-   study. If they differ, the database has been revised since and the
-   key will not reproduce the same corpus.
-3. Paste the published key into the Compiler and build.
-
-The result should be identical, inscription for inscription and in the
-same order.
 
 ## Limitations
 
