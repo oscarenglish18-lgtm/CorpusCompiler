@@ -138,8 +138,7 @@ combining.
 python EDCS_Corpus_Compiler_0_9.py
 ```
 
-The application opens with a SHA-256 self-test; the status bar reports
-whether it passed. Select one or more sites from the checkbox panel, set
+After running select one or more sites from the checkbox panel, set
 the number of inscriptions and any filters, and build. The key is shown
 as you work and updates when settings change.
 
