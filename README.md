@@ -86,9 +86,49 @@ data/
 | `TB` | Thibursicum Bure | `thibursicum_bure`, `thibursicumbure` |
 | `UM` | Uchi Maius | `uchi_maius`, `uchimaius`, `uchi-maius` |
 
+The Compiler recognises sites by matching filenames against a list of
+aliases. Adding one means editing two dictionaries near the top of the
+script. 
+
+If you want to add a whole new site, you will need to complete the following.
+
+**1. Add the code and its aliases** to `_DATASET_CODE_ALIASES`
+(around line 42):
+
+```python
+_DATASET_CODE_ALIASES = {
+    "A":  ["ammaedra", "ammaedara"],
+    ...
+    "TH": ["thamugadi", "timgad"],      # new entry
+    "ALL": ["*"],
+}
+```
+
+The key is the code that will appear in generated keys. The list holds
+every filename you want matched to it — include modern names and common
+spelling variants, since matching is exact after normalisation.
+
+**2. Add a display name** to `DATASET_DISPLAY_NAMES` (around line 60),
+which controls the label in the checkbox panel:
+
+```python
+DATASET_DISPLAY_NAMES = {
+    ...
+    "TH": "Thamugadi",
+}
+```
+
+Save the file and restart the Compiler. Name your export to match one of
+the aliases (`thamugadi.txt` or `timgad.txt`) and the site will appear
+in the panel.
+
+**Choosing a code.** Codes are used verbatim in keys, so keep them
+short and uppercase. They must be unique, and must not contain `-`
+(the key delimiter) or `+` (which joins multiple sites). Avoid `ALL`,
+which is reserved.
 Matching ignores case, spaces, hyphens and underscores. Two files
 resolving to the same code will raise an error rather than silently
-combining.
+combining. If you want to add other sites, you will first need to 
 
 ## Running the Compiler
 
