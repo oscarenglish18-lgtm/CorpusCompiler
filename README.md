@@ -207,6 +207,8 @@ survival and publication bias all sit upstream and are untouched.
 
 ## What the Compiler does to the text
 
+The Compiler applies a text-normalisation process to raw EDCS exports, which should be saved as .txt files in the data folder and named after the site they contain (e.g. thugga.txt), since the Compiler identifies datasets by filename.
+
 Normalisation is applied per line, in this order:
 
 1. **Metadata lines removed.** Lines beginning `province:`, `place:`,
